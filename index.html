@@ -86,21 +86,21 @@
             <form class="mt-8 max-w-xl mx-auto bg-white shadow p-8 rounded" action="https://formspree.io/f/mbljeyld" method="POST">
                 <div class="mb-4">
                     <label for="name" class="block text-gray-600">Name</label>
-                    <input type="text" id="name" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="Your name">
+                    <input type="text" id="name" name="name" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="Your name">
                 </div>
                 <div class="mb-4">
                     <label for="email" class="block text-gray-600">Email</label>
-                    <input type="email" id="email" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="Your email">
+                    <input type="email" id="email" name="email" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="Your email">
                 </div>
                 <div class="mb-4">
                     <label for="subject" class="block text-gray-600">Subject</label>
-                    <input type="subject" id="subject" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="Subject">
+                    <input type="subject" id="subject" name="subject" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="Subject">
                 </div>
                 <div class="mb-4">
                     <label for="message" class="block text-gray-600">Message</label>
-                    <textarea id="message" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="Your message"></textarea>
+                    <textarea id="message" name="message" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="Your message"></textarea>
                 </div>
-                <button type="submit" class="w-full bg-gray-800 text-white py-2 rounded">Send</button>
+                <button type="submit" name="submit" class="w-full bg-gray-800 text-white py-2 rounded">Send</button>
             </form>
         </div>
     </section>
