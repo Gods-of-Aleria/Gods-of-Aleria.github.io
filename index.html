@@ -9,108 +9,113 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/Favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/Favicon/favicon-16x16.png">
     <link rel="manifest" href="/Favicon/site.webmanifest">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"></script>
+    <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <style>
+    .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+      
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+      input, textarea {
+            background-color: rgb(0, 0, 0);
+      }
+      .brdr {
+        border-width:3px;
+        border-style:solid;
+        border-color:rgb(255, 255, 255);
+      }</style>
 </head>
-<body class="bg-gray-100 font-sans">
+<body class="font-sans" style="background-color: black;">
     <!-- Header -->
-    <header class="bg-white shadow">
+    <header class="bg-black shadow">
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Gods of Aleria</h1>
+            <h1 class="text-2xl font-bold text-gray-200">Gods of Aleria</h1>
             <nav>
-                <a href="#about" class="text-gray-600 hover:text-gray-800 mx-4">About</a>
-                <a href="#chapters" class="text-gray-600 hover:text-gray-800 mx-4">Chapters</a>
-                <a href="#team" class="text-gray-600 hover:text-gray-800 mx-4">Authors</a>
-                <a href="#contact" class="text-gray-600 hover:text-gray-800 mx-4">Contact</a>
+                <a href="#team" class="text-gray-200 hover:text-gray-800 mx-4">Authors</a>
+                <a href="#contact" class="text-gray-200 hover:text-gray-800 mx-4">Contact</a>
             </nav>
         </div>
     </header>
 
+    <hr style="width: 100%; height: 3px; background-color: #ffffff;">
+
     <!-- Hero Section -->
-    <section class="bg-gray-800 text-white">
+    <section class="bg-black text-white">
         <div class="container mx-auto px-4 py-16 text-center">
             <h2 class="text-4xl font-bold">Welcome to Aleria</h2>
             <p class="mt-4 text-lg">Explore epic stories and stunning artwork by our passionate creators.</p>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="bg-white py-16">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-gray-800 text-center">About</h2>
-            <p class="text-gray-600 mt-4 text-center">Our manga combine thrilling stories and unique characters to create a journey you won't forget. Created with love by our passionate team.</p>
-        </div>
-    </section>
-
-    <!-- Chapters Section -->
-    <section id="chapters" class="bg-gray-100 py-16">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-gray-800 text-center">Chapters</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-                <!-- Chapter 1 -->
-                <div class="bg-white shadow rounded overflow-hidden">
-                    <img src="https://wallpaperaccess.com/full/1939291.jpg" alt="Chapter 1" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <h3 class="text-lg font-bold">Chapter 1: Delta Nakamura</h3>
-                        <p class="text-gray-600">Origin.</p>
-                    </div>
-                </div>
-                <!-- More chapters -->
-            </div>
-        </div>
-    </section>
+    <hr style="width: 100%; height: 3px; background-color: #ffffff;">
 
     <!-- Team Section -->
-    <section id="team" class="bg-white py-16">
+    <section id="team" class="bg-black py-16">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-gray-800 text-center">About Us</h2>
+            <h2 class="text-3xl font-bold text-white text-center">About Us</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
                 <!-- Team Member -->
                 <div class="text-center">
                     <img src="/exeeter.png" alt="William Seaton" class="w-32 h-32 mx-auto rounded-full">
                     <h3 class="text-lg font-bold mt-4">William Seaton</h3>
-                    <p class="text-gray-600">Co-Creator</p>
+                    <p class="text-white">Co-Creator</p>
                 </div>
                 <div class="text-center">
                     <img src="/eno.jpeg" alt="Evan Nolan" class="w-32 h-32 mx-auto rounded-full">
                     <h3 class="text-lg font-bold mt-4">Evan Nolan</h3>
-                    <p class="text-gray-600">Co-Creator</p>
+                    <p class="text-white">Co-Creator</p>
                 </div>
                 <!-- More team members -->
             </div>
         </div>
     </section>
 
+    <hr style="width: 100%; height: 3px; background-color: #ffffff;">
+
     <!-- Contact Section -->
-    <section id="contact" class="bg-gray-100 py-16">
+    <section id="contact" class="bg-black py-16">
         <div class="container mx-auto">
-            <h2 class="text-3xl font-bold text-gray-800 text-center" id="contact-form">Get in Touch</h2>
-            <form class="mt-8 max-w-xl mx-auto bg-white shadow p-8 rounded" action="https://formspree.io/f/mbljeyld" method="POST">
+            <h2 class="text-3xl font-bold text-white text-center" id="contact-form">Contact Us</h2>
+            <form class="mt-8 brdr max-w-xl mx-auto bg-black shadow p-8 rounded" action="https://formspree.io/f/mbljeyld" method="POST">
                 <div class="mb-4">
-                    <label for="name" class="block text-gray-600">Name</label>
-                    <input type="text" id="name" name="name" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="Your name">
+                    <label for="name" class="block text-white">Name</label>
+                    <input type="text" id="name" name="name" class="my-1 w-full brdr rounded px-4 py-2" placeholder="Your name">
                 </div>
                 <div class="mb-4">
-                    <label for="email" class="block text-gray-600">Email</label>
-                    <input type="email" id="email" name="email" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="Your email">
+                    <label for="email" class="block text-white">Email</label>
+                    <input type="email" id="email" name="email" class="my-1 w-full brdr rounded px-4 py-2" placeholder="Your email">
                 </div>
                 <div class="mb-4">
-                    <label for="subject" class="block text-gray-600">Subject</label>
-                    <input type="subject" id="subject" name="subject" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="Subject">
+                    <label for="subject" class="block text-white">Subject</label>
+                    <input type="subject" id="subject" name="subject" class="my-1 w-full brdr rounded px-4 py-2" placeholder="Subject">
                 </div>
                 <div class="mb-4">
-                    <label for="message" class="block text-gray-600">Message</label>
-                    <textarea id="message" name="message" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="Your message"></textarea>
+                    <label for="message" class="block text-white">Message</label>
+                    <textarea id="message" name="message" class="my-1 w-full brdr rounded px-4 py-2" placeholder="Your message"></textarea>
                 </div>
-                <button type="submit" class="w-full bg-gray-800 text-white py-2 rounded">Send</button>
-                <p class="text-center my-5">If the form won't submit, contact us at <b>godsofaleria@gmail.com</b>.</p>
+                <div class="mx-auto text-center">
+                <button type="submit" style="width: 80px;" class="brdr bg-black text-white py-2 rounded">Send</button>
+                </div>
+                <div>
+                <p class="text-center text-white my-3">If the form won't submit, contact us at <a href="mailto:godsofaleria@gmail.com"><b><u>godsofaleria@gmail.com</u></b></a>.</p>
+                </div>
             </form>
         </div>
     </section>
 
+    <hr style="width: 100%; height: 3px; background-color: #ffffff;">
+
     <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-4">
+    <footer class="bg-black text-white py-4">
         <div class="container mx-auto px-4 text-center">
-            <p>&copy; 2024 Gods of Aleria. All Rights Reserved.</p>
+            <p>2024 Gods of Aleria. All Rights Reserved.</p>
         </div>
     </footer>
 </body>
